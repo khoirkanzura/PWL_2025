@@ -11,18 +11,22 @@ class Controller extends BaseController
     use AuthorizesRequests, ValidatesRequests;
 } 
 
-
-
-namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 
-class WelcomeController extends Controller
-{
-	public function hello() {
-    	    return 'Hello World';
-	}
-}
+
+// class WelcomeController extends Controller
+// {
+//     public function hello(){
+//         return('Hello World');
+//     }
+
+//     public function greeting(){
+//         return view('blog.hello', ['name' => 'Khoirr KN']);
+//     }
+// }
+
+
+
 
 // php artisan make:controller PhotoController 
 
